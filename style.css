@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/joanna-kosinska-dka5C8Ct2Fw-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Mountains of Christmas', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: -10rem;
+}
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
