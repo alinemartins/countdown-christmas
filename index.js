@@ -17,10 +17,14 @@ function countdown() {
     const seconds = Math.floor(totalSeconds) % 60;
 
     daysElem.innerHTML = days;
-    hoursElem.innerHTML = hours;
-    minutesElem.innerHTML = minutes;
-    secondsElem.innerHTML = seconds;
+    hoursElem.innerHTML = formatTime(hours);
+    minutesElem.innerHTML = formatTime(minutes);
+    secondsElem.innerHTML = formatTime(seconds);
 
+}
+
+function formatTime(time) {
+    return time < 10 ? (`0${time}`) : time;
 }
 
 // initial call
